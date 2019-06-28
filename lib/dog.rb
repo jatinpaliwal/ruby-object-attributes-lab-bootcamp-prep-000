@@ -1,22 +1,22 @@
 class Dog
-
-  def initialize(name,breed)
+  def initalize(name,breed)
     @name = name
     @breed = breed
   end
 
-  def name=(name)
+   def name=(name)
     @name = name
   end
 
-  def name
-    puts @name
-  end
+   def name
+    @name
+  end 
 
-  def breed=(breed)
+   def breed=(breed)
     @breed = breed
-  end
+  end 
 
-  def breed
-    puts @breed
+   def breed
+    @breed 
   end
+end 
